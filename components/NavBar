@@ -1,0 +1,17 @@
+import React from "react";
+
+const Navbar = () => {
+  return (
+    <nav style={styles.nav}>
+      <h2 style={styles.logo}>MyWebsite</h2>
+
+      <ul style={styles.menu}>
+        <li style={styles.item}>Home</li>
+        <li style={styles.item}>About</li>
+        <li style={styles.item}>Services</li>
+        <li style={styles.item}>Contact</li>
+      </ul>
+    </nav>
+  );
+};
+export default Navbar;
