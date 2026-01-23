@@ -1,1 +1,14 @@
+import { useState } from "react";
 
+const App = () => {
+  const [bg, setBg] = useState("white");
+
+  return (
+    <div style={{ backgroundColor: bg, minHeight: "100vh" }}>
+      <button onClick={() => setBg("black")}>Dark</button>
+      <button onClick={() => setBg("white")}>Light</button>
+    </div>
+  );
+};
+
+export default App;
